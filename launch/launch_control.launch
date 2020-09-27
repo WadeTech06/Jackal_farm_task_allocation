@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Run collect_gps_waypoints node -->
+  	<node pkg="jackal_farm" type="launch_control.py" name="launch_control" output="screen"/>
+
+</launch>
+			

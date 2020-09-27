@@ -1,0 +1,6 @@
+  <!-- Robot localisation, takes GPS signals and fuses them with local odometry
+       to form a single localisation estimate. This is the global filter, providing
+       the map to odom transformation. -->
+
+
+       In order to test the algorithm, an outside simulator was designed to test real unmanned ground vehicles (UGVs) with GPS capabilities. The simulation was designed in Gazebo, it contains a bounded 2D outdoor environment with obstacles and three Jackal robots. (see in Fig. 4). Insert image In addition to the simulated outdoors, I developed a user interface that allows users to create and administer task anywhere in the environment. The user interface also allows the user to command the robots to start allocating task and processing them. The UGVs have no knowledge of the map or environment other than the information received from local sensors such as IMU, GPS, and laser scanner data. The system has been setup to work in a centralized network due to limitation of processing power. The goal is to arbitrarily spawn task and have the UGVs drive to the most optimal task that reduces the overall time to complete all task. 

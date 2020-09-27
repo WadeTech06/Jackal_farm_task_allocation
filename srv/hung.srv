@@ -1,0 +1,6 @@
+int32 num_of_robots
+int32 num_of_tasks
+float64[] cost_vector
+---
+int32[] assignments
+float64 cost
